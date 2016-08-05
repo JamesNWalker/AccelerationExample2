@@ -15,6 +15,9 @@ void draw() {
   fill(255);
   rectMode(CORNER);
   rect(0,0,width,height);
+  // Draw ellipse at centre of window
+  fill(0);
+  ellipse(width/2, height/2, 5, 5);
   // Update the location
   mover.update();
   // Display the Mover
